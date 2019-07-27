@@ -1,0 +1,633 @@
+
+/*
+Author Name: Istiak Ahmed;
+E-Mail: onlyistiak@gmail.com;
+*/
+
+/* ======Index=======
+
+1.Header-Menu(61-85)
+2.Fusce at (86-151)
+3.Facilisis (152-205)
+4.Ante donec(206-281)
+5.Blandit rhoncus (282-321)
+6.Placerat(322-367)
+=====================
+*/
+
+
+/* Global CSS */
+
+body {
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+
+}
+
+h2 {
+
+
+}
+h3 {
+
+
+}
+
+p {
+
+
+}
+
+/*Theme CSS Start*/
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+/*Navigation Menu Part Start*/
+.mainmenu{
+	padding: 25px 0px;
+	background-color: #edeff1;
+}
+
+
+.js-scroll-trigger{
+	color: #000;
+	margin-right: 20px;
+
+}
+
+.js-scroll-trigger.active {
+    color: #fff;
+    background: #dd4b2b;
+    border-radius: 15px;
+    padding: 6px 14px!important;
+}
+
+.fa.fa-bars{
+font-size: 30px;
+}
+
+
+.Logoimage {
+
+}
+
+/*Navigation Menu Part End*/
+
+/*Hero Part Start*/
+
+.Hero{
+    background: url(../img/banner.png);
+    padding-top: 300px;
+    background-size: cover;
+    margin-top: 112px;
+
+}
+
+.tittle-top{
+	text-align: center;
+}
+
+.tittle-top h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 22px;
+    letter-spacing: 1px;
+}
+
+.tittle-top p {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 45px;
+}
+
+.tittle-box{
+ 	text-align: center;
+}
+
+.tittle-box h3 {
+    color: #fff;
+    padding-top: 18px;
+    font-size: 24px;
+}
+
+.tittle-box p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.btn-hero {
+    margin: 0px auto;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 23px;
+    color: #612316;
+    margin-top: 13px;
+    transition: 0.3s;
+}
+
+.btn-hero:hover{
+    background: #dd4b2b;
+    color: #fff;
+}
+
+/*Hero Part End*/
+
+/*Sec-B part Start*/
+.sec-B{
+	background: #edeff1;
+	padding-bottom: 90px;
+	padding-top: 50px;
+}
+
+.sec-B h2 {
+    text-align: center;
+    padding-bottom: 55px;
+    font-weight: bold;
+}
+
+
+.b-box{
+	text-align: center;
+}
+
+.b-box img {
+    max-width: 100%;
+}
+
+
+.b-box h3 {
+    font-size: 23px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 3px;
+
+
+}
+
+
+.b-box p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-btn {
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 27px;
+    color: #4e5159;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.box-btn:hover{
+    background: #dd4b2b;
+    color: #fff;
+}
+/*Sec-B Part End*/
+
+
+/*Sec-C part Start*/
+
+.sec-C{
+	background: url(../img/newsletter.png);
+	background-size: cover;
+	text-align: center;
+	background-position: inherit;
+	padding-top: 50px;
+}
+
+
+.c-box h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.c-box p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.c-box form {
+    position: relative;
+    padding-bottom: 47px;
+}
+
+.e-form {
+    background: rgba(255,255,255,0.3);
+    border: 1px solid white;
+    padding: 7px 113px 10px 20px;
+    border-radius: 21px;
+    position: absolute;
+    left: 10%;
+    color: #dd4b2b;
+    transition: 0.3s;
+}
+
+.e-form:hover{
+    padding: 4px 101px;
+    top: 6px;
+    padding-left: 23px;
+}
+
+::placeholder {
+  color: white;
+    font-size: 14px;
+    }
+
+::selection
+{
+    color: #fff;
+    background: #dd4b2b;
+}
+
+.e-btn {
+    border: 1px solid white;
+    background: #fff;
+    color: #612316;
+    padding: 9px 37px;
+    border-radius: 23px;
+    position: absolute;
+    left: 63%;
+    transition: 0.3s;
+}
+
+.e-btn:hover{
+    background: #dd4b2b;
+    color: #fff;
+    border: 1px solid #dd4b2b;
+}
+
+/*Sec-C Part End*/
+
+
+/*Sec-D part Star*/
+.d-box-one h3 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.d-box-one p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 18px; 
+}
+
+.d-btn-one {
+    background-color: #dd4b2b;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 45px;
+    color: #fff;
+}
+
+.d-btn-two {
+    background-color: #4b4e73;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 45px;
+    color: #fff;
+}
+
+.d-box-two{
+	border: 2px solid #dbdbdb;
+}
+
+.box-two-row{
+	padding: 45px 0px;
+}
+
+
+/*Sec-D Part End*/
+
+
+/*Sec-E part Star*/
+.sec-E{
+	background: #d75d0e;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.sec-E a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 12px;
+    transition: 0.1s;
+}
+.sec-E a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+/*Sec-E part End*/
+
+/*Footer Part */
+
+.foot{
+    padding: 50px 0px;
+    background: url(../img/newsletter.png);
+    background-size: cover;
+    text-align: center;
+
+}
+
+.foot-tittle p {
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 3px;
+    background: rgb(255,255,255,0.5);
+    padding: 30px 0px;
+    border-radius: 40px;
+}
+
+.foot-tittle p a{
+    text-decoration: none;
+    color: #d75d0e;
+    letter-spacing: 5px;
+    transition: 0.2s ease-in-out;
+}
+.foot-tittle p a:hover{
+    background: #d75d0e; 
+    color: white ;
+    padding: 7px 12px;
+    border-radius: 5px;
+}
+
+
+/*footer Part End*/
+
+
+
+/*Media Query*/
+
+/*For Small Cell Phone*/
+
+@media (min-width: 320px) and (max-width: 479px){
+.mainmenu {
+    padding: 5px 0px;
+
+}
+.Logoimage {
+    position: relative;
+    left: 50%;
+}
+.Hero {
+    padding-top: 50px;
+    margin-top: 59px;
+/*    width: 118%;*/
+    background-position: center;
+}
+.tittle-top h2 {
+    font-size: 28px;
+    padding-top: 25px;
+    letter-spacing: 0px;
+}
+
+.tittle-top p {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.tittle-box img{
+    width:45%;
+}
+.tittle-box h3 {
+    padding-top: 5px;
+    font-size: 21px;
+}
+.tittle-box p {
+    font-size: 14px;
+    line-height: 20px;}
+/*........................*/
+.sec-B {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+    .sec-B h2 {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.b-box img {
+    max-width: 90%;
+}
+.b-box h3 {
+    font-size: 21px;
+    padding-top: 11px;
+    padding-bottom: 0px;
+}
+
+.b-box p {
+     letter-spacing: 0px; 
+}
+
+.box-btn {
+    border-radius: 20px;
+    padding: 9px 17px;
+    font-size: 15px;
+    margin-bottom: 20px
+}
+/*.........................*/
+.sec-C {
+    background-position: center;
+        padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c-box h2 {
+    font-size: 30px;
+}
+
+.e-form {
+    padding: 5px 0px;
+    left: 0;
+    padding-left: 14px;
+    padding-top: 5px;
+    
+}
+.e-form:hover {
+    padding: 5px 0px;
+    top: 0px;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.e-btn {
+    padding: 5px 23px;
+    left: 60%;
+}
+/*...........................*/
+
+.sec-D{
+    padding: 30px 0px;
+}
+.d-box-one h3 {
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+.d-box-one p {
+    padding-bottom: 0px;
+}
+.box-two-row {
+     padding:0px; 
+}
+.d-btn-one {
+
+    border-radius: 20px;
+    padding: 6px 35px;
+    margin: 0px auto;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.d-btn-two {
+
+    border-radius: 20px;
+    padding: 6px 35px;
+    margin: 0px auto;
+    display: block;
+    font-size: 14px;
+}
+/*...........................*/
+.sec-E {
+    padding: 20px 0px;
+    text-align: center;
+}
+.sec-E a {
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.sec-E a:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    padding: 4px 18px;
+}
+
+.foot-tittle p a:hover {
+
+    padding: 2px 12px;
+
+}
+}
+
+
+
+/*For Medium Cell Phone*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .Logoimage {
+    position: relative;
+    left: 100%;
+}
+
+.mainmenu {
+    padding: 15px 0px;
+}
+
+.Hero {
+    background-position: center;
+    margin-top: 92px;
+    padding-top: 40px;
+}
+
+.tittle-top h2 {
+    font-size: 35px;
+    padding-top: 0px;
+}
+
+.tittle-top p {
+    padding-bottom: 40px;
+}
+.tittle-box p {
+    font-size: 16px;
+
+}
+
+.sec-B h2 {
+    padding-bottom: 40px;
+}
+
+.box-btn {
+    margin-bottom: 20px;
+    padding: 9px 22px;
+        }
+
+    .sec-B{
+        padding-bottom: 30px;
+    }
+    .foot {
+    padding: 20px 0px;
+}
+.foot-tittle p {
+    padding: 16px 0px;
+}
+.foot-tittle p a:hover {
+    background: none;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: #d75d0e;
+    letter-spacing: 3px;
+}
+.d-btn-one {
+    display: block;
+    margin: 15px auto;
+}
+
+.d-btn-two {
+    display: block;
+    margin: 0px auto;
+}
+
+.box-two-row {
+    padding: 45px 0px;
+    padding-bottom: 0px;
+}
+.d-box-one h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+.box-two-row {
+    padding: 0px;
+}
+
+.sec-C {
+
+    background-position: center;
+
+}
+}
+
+/*Media Query
+Tablet*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
